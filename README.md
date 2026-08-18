@@ -18,7 +18,11 @@ Site estático (HTML, CSS e JavaScript puro), sem build, sem CMS e sem base de d
 
 ## Formulários
 
-Os formulários de "Pedir Orçamento" e "Contactos" usam o [FormSubmit](https://formsubmit.co/) para enviar por email para `geral@araluminios.com`, sem necessidade de servidor próprio. **No primeiro envio, a FormSubmit manda um email de confirmação para essa caixa de correio — é preciso clicar no link de ativação para os envios seguintes funcionarem.**
+Os formulários de "Pedir Orçamento" e "Contactos" usam o [FormSubmit](https://formsubmit.co/) para enviar por email, sem necessidade de servidor próprio.
+
+**Estado atual (fase de demonstração):** os dois formulários apontam para `fabiocastelo1997@gmail.com`, para permitir testar e ativar o serviço sem depender da caixa de correio do cliente.
+
+**Antes de lançar o site a sério:** trocar `fabiocastelo1997@gmail.com` por `geral@araluminios.com` no atributo `action` dos dois `<form>` (em `orcamento.html` e `contactos.html`) e repetir a ativação — a FormSubmit manda sempre um email de confirmação para o destinatário no primeiro envio, sendo preciso clicar no link de ativação para os envios seguintes funcionarem.
 
 ## Publicar no GitHub Pages
 
