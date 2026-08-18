@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Pedir Orçamento — AR Alumínios</title>
+<meta name="description" content="Peça o seu orçamento de caixilharia de alumínio ou inox. Responda ao formulário ou fale connosco por WhatsApp." />
+<link rel="icon" href="assets/logo-ar.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <span style="display:flex;flex-wrap:wrap;gap:6px 18px;">
+      <a class="phone" href="tel:+351232911438">Tel: 232 911 438</a>
+      <a href="mailto:geral@araluminios.com">geral@araluminios.com</a>
+    </span>
+    <span>Quintãs, Lordosa · Viseu</span>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="assets/logo-ar.png" alt="AR Alumínios — Trabalhos em alumínio e inox em Viseu, Quintãs, Lordosa" /></a>
+    <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false"><span></span></button>
+    <nav class="main-nav">
+      <a href="produtos.html">Produtos</a>
+      <a href="portfolio.html">Portfólio</a>
+      <a href="servicos.html">Serviços</a>
+      <a href="empresa.html">Empresa</a>
+      <a href="orcamento.html" class="active">Pedir Orçamento</a>
+      <a href="contactos.html">Contactos</a>
+    </nav>
+    <a class="btn btn-primary header-cta" href="https://wa.me/351917225915"><span class="dot"></span>WhatsApp</a>
+  </div>
+</header>
+
+<div class="wrap page-head">
+  <p class="breadcrumb"><a href="index.html">Home</a> → Pedir Orçamento</p>
+  <h1>Pedir Orçamento</h1>
+  <p class="page-lead">Os campos com * são de preenchimento obrigatório.</p>
+</div>
+
+<div class="wrap" style="padding-bottom: clamp(32px,5vw,64px);">
+  <div class="split">
+    <form class="form-grid" action="https://formsubmit.co/geral@araluminios.com" method="POST" data-ajax-form>
+      <input type="hidden" name="_subject" value="Novo pedido de orçamento — site AR Alumínios" />
+      <input type="hidden" name="_template" value="table" />
+      <input type="hidden" name="_captcha" value="true" />
+      <label class="field">Nome *
+        <input type="text" name="Nome" required />
+      </label>
+      <fieldset class="field">
+        <legend>Empresa / Particular</legend>
+        <div class="radio-row">
+          <label><input type="radio" name="Tipo de cliente" value="Empresa" /> Empresa</label>
+          <label><input type="radio" name="Tipo de cliente" value="Particular" /> Particular</label>
+        </div>
+      </fieldset>
+      <label class="field">Nº de Telefone *
+        <input type="tel" name="Telefone" required />
+      </label>
+      <label class="field">E-Mail *
+        <input type="email" name="Email" required />
+      </label>
+      <label class="field">Tipo de Produto
+        <select name="Tipo de produto">
+          <option>Caixilharia de Alumínio</option>
+          <option>Inox</option>
+          <option>Portões</option>
+          <option>Gradeamento</option>
+          <option>Portas de garagem</option>
+          <option>Outro...</option>
+        </select>
+      </label>
+      <label class="field">Coloque aqui a sua mensagem
+        <textarea name="Mensagem" rows="5"></textarea>
+      </label>
+      <label class="field file">Enviar um possível anexo
+        <input type="file" name="attachment" />
+      </label>
+      <button type="submit" class="btn btn-primary btn-lg" data-label="Enviar pedido">Enviar pedido</button>
+      <p class="form-status"></p>
+    </form>
+    <aside class="aside-box">
+      <h3>Mais rápido por WhatsApp</h3>
+      <p>Envie uma fotografia do vão ou do portão com a medida aproximada e a localidade.</p>
+      <a class="btn btn-primary btn-lg" href="https://wa.me/351917225915">917 225 915</a>
+    </aside>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <p class="footer-brand">AR Alumínios</p>
+        <p style="font-size:14px;line-height:1.7;">António da Costa Rego, Lda. — Serralharia Civil<br />Visite-nos em Viseu · Quintãs, Lordosa</p>
+      </div>
+      <div>
+        <h4>NAVEGAÇÃO</h4>
+        <div class="footer-links">
+          <a href="produtos.html">Produtos</a>
+          <a href="portfolio.html">Portfólio</a>
+          <a href="servicos.html">Serviços</a>
+          <a href="empresa.html">Empresa</a>
+          <a href="orcamento.html">Pedir Orçamento</a>
+          <a href="contactos.html">Contactos</a>
+        </div>
+      </div>
+      <div>
+        <h4>CONTACTOS</h4>
+        <div class="footer-links">
+          <a href="tel:+351232911438">232 911 438</a>
+          <a href="tel:+351917225915">917 225 915</a>
+          <a href="tel:+351914588545">914 588 545</a>
+          <a href="mailto:geral@araluminios.com">geral@araluminios.com</a>
+        </div>
+      </div>
+      <div>
+        <h4>SIGA A AR ALUMÍNIOS</h4>
+        <a href="http://www.facebook.com/pages/AR-Alumun%C3%ADos/183326645068904">Facebook</a>
+      </div>
+    </div>
+    <p class="footer-bottom">Copyright © 2026 AR Alumínios. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<div class="mobile-cta">
+  <a class="call" href="tel:+351232911438">Ligar</a>
+  <a class="wa" href="https://wa.me/351917225915">Pedir orçamento por WhatsApp</a>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
